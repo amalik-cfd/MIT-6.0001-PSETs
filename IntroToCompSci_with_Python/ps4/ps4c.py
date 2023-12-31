@@ -1,7 +1,7 @@
 # Problem Set 4C
-# Name: <your name here>
-# Collaborators:
-# Time Spent: x:xx
+# Name: Abdul Malik Huzaifa
+# Collaborators: None
+# Time Spent: 1 hour
 
 import string
 from ps4a import get_permutations
