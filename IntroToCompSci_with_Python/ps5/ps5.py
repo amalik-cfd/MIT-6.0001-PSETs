@@ -1,7 +1,7 @@
 # 6.0001/6.00 Problem Set 5 - RSS Feed Filter
-# Name:
-# Collaborators:
-# Time:
+# Name: Abdul Malik Huzaifa
+# Collaborators: None
+# Time: 2 weeks
 import collections
 collections.Callable = collections.abc.Callable
 import feedparser
