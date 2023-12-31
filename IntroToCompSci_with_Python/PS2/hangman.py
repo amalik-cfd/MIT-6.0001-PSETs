@@ -1,7 +1,7 @@
 # Problem Set 2, hangman.py
-# Name: 
-# Collaborators:
-# Time spent:
+# Name: Abdul Malik Huzaifa
+# Collaborators: None
+# Time spent: 2 weeks
 
 # Hangman Game
 # -----------------------------------
