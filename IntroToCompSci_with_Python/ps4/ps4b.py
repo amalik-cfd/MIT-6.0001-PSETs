@@ -267,5 +267,5 @@ if __name__ == '__main__':
     #TODO: WRITE YOUR TEST CASES HERE
 
     #TODO: best shift value and unencrypted story 
-    ciphertext = CiphertextMessage('atdap anrak eteled gsm eyil el en hkar eyanad ethsir ihbak ihbak')
+    ciphertext = CiphertextMessage(get_story_string())
     print(ciphertext.decrypt_message())
