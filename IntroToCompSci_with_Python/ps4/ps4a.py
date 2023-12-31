@@ -1,7 +1,7 @@
 # Problem Set 4A
-# Name: <your name here>
-# Collaborators:
-# Time Spent: x:xx
+# Name: Abdul Malik Huzaifa
+# Collaborators: None
+# Time Spent: 1 day
 
 def get_permutations(sequence):
     '''
@@ -47,27 +47,8 @@ def get_permutations(sequence):
 
 if __name__ == '__main__':
 #    #EXAMPLE
-#    example_input = 'abc'
-#    print('Input:', example_input)
-#    print('Expected Output:', ['abc', 'acb', 'bac', 'bca', 'cab', 'cba'])
-#    print('Actual Output:', get_permutations(example_input))
-    
-#    # Put three example test cases here (for your sanity, limit your inputs
-#    to be three characters or fewer as you will have n! permutations for a 
-#    sequence of length n)
+    example_input = 'abc'
+    print('Input:', example_input)
+    print('Expected Output:', ['abc', 'acb', 'bac', 'bca', 'cab', 'cba'])
+    print('Actual Output:', get_permutations(example_input))
 
-    pass #delete this line and replace with your code here
-
-# def genSubsets(L):
-#     if len(L) == 0:
-#         return [[]] #list of empty list
-#     smaller = genSubsets(L[:-1]) # all subsets without last element
-#     extra = L[-1:] # create a list of just last element
-#     new = []
-#     for small in smaller:
-#         new.append(small+extra)  # for all smaller solutions, add one with last element
-#     return smaller+new  # combine those with last element and those without
-
-
-# testSet = ['a','b','c','d']
-# print(genSubsets(testSet))
