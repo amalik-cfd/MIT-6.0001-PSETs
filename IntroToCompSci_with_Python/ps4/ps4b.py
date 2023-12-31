@@ -1,7 +1,7 @@
 # Problem Set 4B
-# Name: <your name here>
-# Collaborators:
-# Time Spent: x:xx
+# Name: Abdul Malik Huzaifa
+# Collaborators: None
+# Time Spent: 1 week
 
 import string
 
@@ -205,10 +205,6 @@ class PlaintextMessage(Message):
         text = self.get_message_text()
         return PlaintextMessage(text, newshift)
 
-# a= PlaintextMessage('Are you a fairy?', 3)
-# #t=a.change_shift(3)
-# k1 = a.get_message_text_encrypted()
-
 class CiphertextMessage(Message):
     def __init__(self, text):
         '''
@@ -239,7 +235,6 @@ class CiphertextMessage(Message):
         Returns: a tuple of the best shift value used to decrypt the message
         and the decrypted message text using that shift value
         # '''
-        #text = self.get_message_text()
         wordlist = self.get_valid_words()
         test_dict = {}
         for shift in range(26):
@@ -256,9 +251,6 @@ class CiphertextMessage(Message):
         return max(test_dict, key=test_dict.get)
 
 
-        # return (k,26-s)
-# b = CiphertextMessage(k1)
-# k2 = b.decrypt_message()
 
 if __name__ == '__main__':
 
@@ -277,4 +269,3 @@ if __name__ == '__main__':
     #TODO: best shift value and unencrypted story 
     ciphertext = CiphertextMessage('atdap anrak eteled gsm eyil el en hkar eyanad ethsir ihbak ihbak')
     print(ciphertext.decrypt_message())
-    pass #delete this line and replace with your code here
