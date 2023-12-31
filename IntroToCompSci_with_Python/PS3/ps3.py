@@ -132,9 +132,6 @@ def display_hand(hand):
 #
 # Make sure you understand how this function works and what it does!
 # You will need to modify this for Problem #4.
-#display_hand({'a':1, 'x':2, 'l':3, '*':1})
-
-
 
 def deal_hand(n):
     """
@@ -192,13 +189,6 @@ def update_hand(hand, word):
                 k[i] = k.get(i)-1
             else: k[i] = 0
     return k
-# hand = {'a':1, 'q':1, 'l':2, 'm':1, 'u':1, 'i':1 }
-# # display_hand(hand)   
-# t = update_hand(hand, 'quail')
-# print(t)
-# display_hand(hand)
-
-    pass  # TO DO... Remove this line when you implement this function
 
 #
 # Problem #3: Test word validity
@@ -236,10 +226,8 @@ def is_valid_word(word, hand, word_list):
                 return False
         else: return False
     return True
-    #pass  # TO DO... Remove this line when you implement this function
-#word_list = load_words()
-#word_list=['homes','honey']
-#print(is_valid_word(1, 2, word_list))
+
+
 # Problem #5: Playing a hand
 #
 def calculate_handlen(hand):
@@ -352,7 +340,6 @@ def substitute_hand(hand, letter):
         else:
             check(handkeys)
     return check(handkeys)
-    #pass  # TO DO... Remove this line when you implement this function
        
     
 def play_game(word_list):
